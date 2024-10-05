@@ -2,7 +2,7 @@ import { CiBookmark } from "react-icons/ci";
 import { IoMdEye } from "react-icons/io";
 import { Link } from "react-router-dom";
 const SingleNews = ({ item }) => {
-    const { _id, rating, total_view, title, author, image_url, details } = item;
+    const { rating, total_view, title, author, image_url, details } = item;
     return (
         <div className="border rounded-lg space-y-4">
             <div className="bg-base-300 p-2 flex justify-between">
